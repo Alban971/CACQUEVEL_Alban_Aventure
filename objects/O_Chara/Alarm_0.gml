@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2673E6EE
+/// @DnDHash : 7DE601C6
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "isMoving"
 isMoving = false;
