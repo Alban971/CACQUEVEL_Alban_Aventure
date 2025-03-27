@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"S_Bad",
-    "path":"sprites/S_Bad/S_Bad.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
