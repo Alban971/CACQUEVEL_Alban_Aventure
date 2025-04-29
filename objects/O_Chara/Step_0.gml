@@ -22,21 +22,19 @@ var l6D349802_0 = instance_place(x + dirX*(32), y + dirY*(32), [O_Collision]);i
 		/// @DnDArgument : "expr" "dirX*32"
 		/// @DnDArgument : "expr_1" "dirY*32"
 		/// @DnDArgument : "expr_2" "true"
-		/// @DnDArgument : "expr_relative_2" "1"
 		/// @DnDArgument : "var" "targetX"
 		/// @DnDArgument : "var_1" "targetY"
 		/// @DnDArgument : "var_2" "isMoving"
 		targetX = dirX*32;
 		targetY = dirY*32;
-		isMoving += true;
+		isMoving = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 3CA8442E
 		/// @DnDParent : 2ACEECB7
 		/// @DnDArgument : "steps" "nOfFrameToChangeCase"
-		/// @DnDArgument : "steps_relative" "1"
-		alarm_set(0, nOfFrameToChangeCase + alarm_get(0));}}
+		alarm_set(0, nOfFrameToChangeCase);}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

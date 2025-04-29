@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"CACQUEVEL_Alban_Adventure",
   "resources":[
@@ -42,10 +42,13 @@
     {"id":{"name":"O_Collision","path":"objects/O_Collision/O_Collision.yy",},},
     {"id":{"name":"O_HP","path":"objects/O_HP/O_HP.yy",},},
     {"id":{"name":"O_LifeManager","path":"objects/O_LifeManager/O_LifeManager.yy",},},
+    {"id":{"name":"O_Opponent","path":"objects/O_Opponent/O_Opponent.yy",},},
     {"id":{"name":"O_Sword","path":"objects/O_Sword/O_Sword.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"id":{"name":"Scr_vector_op","path":"scripts/Scr_vector_op/Scr_vector_op.yy",},},
     {"id":{"name":"S_Background","path":"sprites/S_Background/S_Background.yy",},},
     {"id":{"name":"S_Boat","path":"sprites/S_Boat/S_Boat.yy",},},
     {"id":{"name":"S_Collision","path":"sprites/S_Collision/S_Collision.yy",},},
@@ -86,6 +89,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

@@ -120,6 +120,7 @@
     {"name":"inst_463251A0","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_791213CF","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_14DE214C","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_4570C442","path":"rooms/Room3/Room3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -237,6 +238,7 @@
         {"$GMRInstance":"v1","%Name":"inst_463251A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_463251A0","objectId":{"name":"O_Collision","path":"objects/O_Collision/O_Collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":448.0,"y":1056.0,},
         {"$GMRInstance":"v1","%Name":"inst_791213CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_791213CF","objectId":{"name":"O_Collision","path":"objects/O_Collision/O_Collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":480.0,"y":1056.0,},
         {"$GMRInstance":"v1","%Name":"inst_14DE214C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14DE214C","objectId":{"name":"O_Collision","path":"objects/O_Collision/O_Collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":544.0,"y":1056.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4570C442","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4570C442","objectId":{"name":"O_Opponent","path":"objects/O_Opponent/O_Opponent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":1152.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Chara","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4599E450","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4599E450","objectId":{"name":"O_Chara","path":"objects/O_Chara/O_Chara.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1184.0,},
