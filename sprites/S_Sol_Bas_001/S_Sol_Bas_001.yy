@@ -47,8 +47,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"S_Ennemis",
-    "path":"folders/Sprites/S_Ennemis.yy",
+    "name":"S_Pnj",
+    "path":"folders/Sprites/S_Pnj.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

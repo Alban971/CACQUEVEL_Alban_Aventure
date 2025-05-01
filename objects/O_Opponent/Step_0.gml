@@ -3,13 +3,13 @@
 /// @DnDHash : 3A72A683
 /// @DnDArgument : "var" "abs(O_Chara.x-self.x)<=128 and abs(O_Chara.y-self.y)<=128"
 /// @DnDArgument : "value" "true"
-if(abs(O_Chara.x-self.x)<=128 and abs(O_Chara.y-self.y)<=128 == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+if(abs(O_Perso.x-self.x)<=128 and abs(O_Perso.y-self.y)<=128 == true){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AC808DB
 	/// @DnDParent : 3A72A683
 	/// @DnDArgument : "var" "abs(O_Chara.x-self.x)<=32 and abs(O_Chara.y-self.y)<=32"
 	/// @DnDArgument : "value" "true"
-	if(abs(O_Chara.x-self.x)<=32 and abs(O_Chara.y-self.y)<=32 == true){	/// @DnDAction : YoYo Games.Common.Variable
+	if(abs(O_Perso.x-self.x)<=32 and abs(O_Perso.y-self.y)<=32 == true){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 22CD37D7
 		/// @DnDParent : 6AC808DB
@@ -34,10 +34,10 @@ if(abs(O_Chara.x-self.x)<=128 and abs(O_Chara.y-self.y)<=128 == true){	/// @Dn
 		/// @DnDArgument : "var_1" "y"
 		/// @DnDArgument : "var_2" "dir_x"
 		/// @DnDArgument : "var_3" "dir_y"
-		x = x+((O_Chara.x-self.x)*velocity);
-		y = y+((O_Chara.y-self.y)*velocity);
-		dir_x = sign(O_Chara.x-self.x);
-		dir_y = sign(O_Chara.y-self.y);
+		x = x+((O_Perso.x-self.x)*velocity);
+		y = y+((O_Perso.y-self.y)*velocity);
+		dir_x = sign(O_Perso.x-self.x);
+		dir_y = sign(O_Perso.y-self.y);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
