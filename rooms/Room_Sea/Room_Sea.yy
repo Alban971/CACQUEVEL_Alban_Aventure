@@ -1,12 +1,12 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room2",
+  "%Name":"Room_Sea",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_62D9E18C","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_62D9E18C","path":"rooms/Room_Sea/Room_Sea.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -19,7 +19,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":8.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_Tiles_Water","path":"sprites/S_Tiles_Water/S_Tiles_Water.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
-  "name":"Room2",
+  "name":"Room_Sea",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
