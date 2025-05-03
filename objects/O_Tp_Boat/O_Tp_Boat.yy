@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Collision",
+  "%Name":"O_Tp_Boat",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Perso","path":"objects/O_Perso/O_Perso.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Boat","path":"objects/O_Boat/O_Boat.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Collision",
+  "name":"O_Tp_Boat",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"S_Collision",
-    "path":"sprites/S_Collision/S_Collision.yy",
+    "name":"Sprite37",
+    "path":"sprites/Sprite37/Sprite37.yy",
   },
   "spriteMaskId":null,
   "visible":false,
