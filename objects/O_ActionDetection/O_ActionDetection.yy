@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_LifeManager",
-  "eventList":[],
+  "%Name":"O_ActionDetection",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_LifeManager",
+  "name":"O_ActionDetection",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite37",
+    "path":"sprites/Sprite37/Sprite37.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

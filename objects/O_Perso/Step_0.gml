@@ -124,8 +124,3 @@ var l7C689F4E_0;l7C689F4E_0 = keyboard_check_pressed(vk_space);if (l7C689F4E_0
 		/// @DnDArgument : "expr" "270+point_direction(x,y,x+swordX,y+swordY)"
 		/// @DnDArgument : "var" "sword.image_angle"
 		sword.image_angle = 270+point_direction(x,y,x+swordX,y+swordY);}}
-
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
-/// @DnDVersion : 1.1
-/// @DnDHash : 14DC2A33
-var l14DC2A33_0;l14DC2A33_0 = mouse_check_button(mb_left);if (l14DC2A33_0){}
