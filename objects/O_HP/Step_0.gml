@@ -3,8 +3,10 @@
 /// @DnDHash : 536D0010
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
-if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+if(hp <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 0C67CDA6
+	/// @DnDHash : 2A79CC8A
 	/// @DnDParent : 536D0010
-	alarm_set(0, 30);}
+	/// @DnDArgument : "room" "Room_Die"
+	/// @DnDSaveInfo : "room" "Room_Die"
+	room_goto(Room_Die);}

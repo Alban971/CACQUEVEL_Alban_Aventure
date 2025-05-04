@@ -17,10 +17,10 @@ if(dist_verif <= 32){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDParent : 2C1C46B1
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "O_Sword"
+	/// @DnDArgument : "objectid" "O_Sword_Opp"
 	/// @DnDArgument : "layer" ""Opponent""
-	/// @DnDSaveInfo : "objectid" "O_Sword"
-	instance_create_layer(x + 0, y + 0, "Opponent", O_Sword);
+	/// @DnDSaveInfo : "objectid" "O_Sword_Opp"
+	instance_create_layer(x + 0, y + 0, "Opponent", O_Sword_Opp);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

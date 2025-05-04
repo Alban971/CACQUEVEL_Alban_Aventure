@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_ATK",
-    "path":"sprites/S_ATK/S_ATK.yy",
+    "name":"S_Sword",
+    "path":"sprites/S_Sword/S_Sword.yy",
   },
   "spriteMaskId":null,
   "visible":true,

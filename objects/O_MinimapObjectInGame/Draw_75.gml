@@ -8,8 +8,9 @@ if(global.showMap == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDHash : 08D65632
 	/// @DnDParent : 5E2DCBB4
 	/// @DnDArgument : "color" "minimapColor"
-	/// @DnDArgument : "alpha" "false"
-	draw_set_colour(minimapColor & $ffffff);draw_set_alpha(1);
+	draw_set_colour(minimapColor & $ffffff);
+	var l08D65632_0=(minimapColor >> 24);
+	draw_set_alpha(l08D65632_0 / $ff);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
 	/// @DnDVersion : 1

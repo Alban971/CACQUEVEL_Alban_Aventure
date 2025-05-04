@@ -34,5 +34,5 @@
     "path":"sprites/SpriteMiniSand/SpriteMiniSand.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -10,12 +10,14 @@ function Scr_CreateMinimapObject(parentObject, myColor) {	/// @DnDAction : YoY
 	/// @DnDVersion : 1
 	/// @DnDHash : 3C0DE758
 	/// @DnDParent : 5267A0A1
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "var" "justCreatedObject"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "O_MinimapObjectInGame"
 	/// @DnDArgument : "layer" ""minimapsObject""
 	/// @DnDSaveInfo : "objectid" "O_MinimapObjectInGame"
-	var justCreatedObject = instance_create_layer(0, 0, "minimapsObject", O_MinimapObjectInGame);
+	var justCreatedObject = instance_create_layer(x + 0, y + 0, "minimapsObject", O_MinimapObjectInGame);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

@@ -34,5 +34,5 @@
     "path":"sprites/SpriteMiniWay/SpriteMiniWay.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

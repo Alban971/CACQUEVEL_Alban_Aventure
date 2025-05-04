@@ -34,5 +34,5 @@
     "path":"sprites/SpriteMiniSea/SpriteMiniSea.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
